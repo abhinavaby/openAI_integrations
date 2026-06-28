@@ -6,7 +6,8 @@ A simple command-line chatbot built using the OpenAI API and Python. Users can i
 
 ## 🚀 Features
 
-* Interactive command-line chatbot
+* Interactive command-line chatbot (`main.py`)
+* AI Image generation from text prompts (`pro2.py`)
 * Powered by OpenAI GPT models
 * Easy to understand and modify
 * Beginner-friendly project
@@ -20,6 +21,7 @@ A simple command-line chatbot built using the OpenAI API and Python. Users can i
 ```text
 .
 ├── main.py
+├── pro2.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -90,9 +92,18 @@ set OPENAI_API_KEY=your_api_key_here
 
 ## ▶️ Run the Application
 
+### Start Chatbot
+
 ```bash
 python main.py
 ```
+
+### Generate Image
+
+```bash
+python pro2.py
+```
+*Note: You need to set your API key inside `pro2.py` before running it, or modify it to use the `OPENAI_API_KEY` environment variable.*
 
 ---
 
